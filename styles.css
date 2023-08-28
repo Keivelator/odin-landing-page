@@ -129,3 +129,40 @@
     font-weight: bolder;
     font-size: 24px;
 }
+
+/* Signup call */
+
+.signup-call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signup-call {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 54px 130px;
+    width: 850px;
+}
+
+.signup-call-text {
+    color: #f9faf8;
+}
+
+.signup-call-text-top {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.signup-call-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 10px;
+    padding: 0px 32px;
+    font-size: 18px;
+    font-weight: 500;
+}
