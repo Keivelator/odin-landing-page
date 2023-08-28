@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.header {
+    width: 900px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    width: 420px;
+    justify-content: space-between;
+    color: #e5e7eb;
+    font-size: 18px;
+}
