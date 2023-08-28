@@ -166,3 +166,18 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.footer {
+    color: #f9faf8;
+    font-weight: 600;
+}
