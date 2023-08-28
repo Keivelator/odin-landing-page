@@ -104,3 +104,28 @@
 .content-piece {
     border: 1px solid white;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.quote {
+    width: 770px;
+}
+
+.quote-line {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-credit {
+    text-align: right;
+    font-weight: bolder;
+    font-size: 24px;
+}
