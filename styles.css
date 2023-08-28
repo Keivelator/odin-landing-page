@@ -10,7 +10,7 @@
 }
 
 .header {
-    width: 900px;
+    width: 1000px;
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
@@ -27,4 +27,47 @@
     justify-content: space-between;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+/* Banner */
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 400px;
+}
+
+.banner-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.banner-title-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 15px;
+}
+
+.signup-button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.banner-image {
+    width: 450px;
+    margin-left: 30px;
 }
